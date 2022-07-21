@@ -12,5 +12,5 @@ echo
 echo "The array elements are"
 for((i=0;i<n;i++))
 do 
-	read arr[i]
+	echo "${arr[i]}"
 done
